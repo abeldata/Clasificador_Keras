@@ -1,6 +1,7 @@
-streamlit== 1.24.1
-pandas== 1.5.3
-numPy== 1.22.4
-sklearn== 1.2.2
+streamlit==1.24.1
+pandas==1.5.3
+numpy==1.22.4
+scikit-learn==1.2.2
+lxml==4.9.2
 keras== 2.12.0
 lxml==4.9.2
