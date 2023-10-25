@@ -21,7 +21,7 @@ st.sidebar.markdown("""
                     """)
  
 def input_valores () :
-    v_1 = st.sidebar.slider('idx_refraccion', 1.51115, 1.53393, 1.52101)
+    v_1 = st.sidebar.slider('idx_refraccion', 1.51115, 1.53393, 1.52101, step=0.00001, format='%.5f')
     v_2 = st.sidebar.slider('sodio', 10.73000, 17.38000, 13.64)
     v_3 = st.sidebar.slider('magnesio', 0.00000, 4.49000, 4.49)
     v_4 = st.sidebar.slider('aluminio', 0.34000, 3.50000, 1.10)
