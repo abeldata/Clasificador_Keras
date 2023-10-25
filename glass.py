@@ -75,16 +75,18 @@ nombres_tipos = {
 prediccion = model.predict(datos_escalados)
 
 st.header('Predicción del modelo')
-st.write(prediccion)
+clases_visualizacion = np.argmax(prediccion, axis=1) + 1
+prediccion_mas1 = np.column_stack((clases_visualizacion, prediccion))
+st.write(prediccion_mas1)
 
 
 # Obtener las clases y probabilidades de la predicción
-clases = int(np.argmax(prediccion, axis=1))
-probabilidades = np.max(prediccion, axis=1)
+clase = int(np.argmax(prediccion, axis=1))
+probabilidad = np.max(prediccion, axis=1)
 
 # Crear un DataFrame con las clases y probabilidades
-clases_map = nombres_tipos.get(clases)
-prediccion_dataframe = pd.DataFrame({'Clase': clases_map, 'Porcentaje': probabilidades})
+clases_map = nombres_tipos.get(clase)
+prediccion_dataframe = pd.DataFrame({'Clase': clases_map, 'Porcentaje': probabilidad})
 
 
 st.markdown("""
