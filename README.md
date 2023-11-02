@@ -29,7 +29,7 @@ keras== 2.12.0
 └── README.md               # Documentación del proyecto
 ```
 ## Uso
-Selecciona loa valores de los componentes desde el panel lateral , la clasificación se realiza de forma automática .
+Selecciona los valores de los componentes desde el panel lateral , la clasificación se realiza de forma automática .
 
 ## Créditos
 Este proyecto utiliza las librerías de Python, incluyendo Streamlit, Pandas, NumPy, Matplotlib, Seaborn y Scikit-learn. Agradecimientos a la comunidad de desarrolladores de estas librerías.
