@@ -20,12 +20,12 @@ keras== 2.12.0
 ## Estructura del Repositorio UD3.ipynb
 ```bash
 .
-├──
-├── glass.py                   # algoritmo de predicción
-├── modelo_glass.py            # despliega el algoritmo de entrenamiento
-├── mejor_modelo.h5            # Archivo con los mejores pesos de entrenamiento
-├── norm_glass.pkl             # Archivo con las medidas de estandarización usadas
-├── glass.py                   # algoritmo de predicción
-├── requirements.txt           # Lista de librerías requeridas
-└── README.md                  # Documentación del proyecto
+├── glass.csv               # conjunto de datos de entrenamiento
+├── glass.py                # algoritmo de predicción
+├── modelo_glass.py         # despliega el algoritmo de entrenamiento
+├── mejor_modelo.h5         # Archivo con los mejores pesos de entrenamiento
+├── norm_glass.pkl          # Archivo con las medidas de estandarización usadas
+├── glass.py                # algoritmo de predicción
+├── requirements.txt        # Lista de librerías requeridas
+└── README.md               # Documentación del proyecto
 ```
