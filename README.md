@@ -1,6 +1,7 @@
-# Glass predictor
+# Clasificador multiclase  , Keras  , TensorFlow
 
-Predictor del tipo de vidrio en función de sus componentes :
+Este repositorio se enfoca en crear una pequeña App interactiva para podel clasificar el tipo de vidrio en base a la sus componentes , para tal fin usa un red neuronal profunda desarrollada en Keras .
+
 
 
 ## Demo App
