@@ -7,7 +7,7 @@ Este repositorio se enfoca en crear una pequeña App interactiva para poder clas
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://glass-x0klpcvg3ij.streamlit.app/)
 
 ## Requisitos
-A continuación se presentan las librerías necesarias para ejecutar este proyecto. Asegúrate de tenerlas instaladas en tu entorno.
+A continuación se presentan las librerías necesarias para ejecutar este proyecto.
 ```bash
 streamlit==1.24.1
 pandas==1.5.3
