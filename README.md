@@ -1,6 +1,6 @@
 # Clasificador multiclase  , Keras  , TensorFlow
 
-Este repositorio se enfoca en crear una pequeña App interactiva para poder clasificar el tipo de vidrio en base a sus componentes , para tal fin usa un red neuronal profunda la cual ya ha sido entrenada con el conjunto de datos contenido en glass.csv , quedándonos con el mejor modelo ofrecido en dicho entrenamiento.
+Este repositorio se enfoca en crear una pequeña App interactiva para poder clasificar el tipo de vidrio en base a sus componentes , para tal fin usa una red neuronal profunda la cual ya ha sido entrenada con el conjunto de datos contenido en glass.csv , quedándonos con el mejor modelo ofrecido en dicho entrenamiento.
 
 ## Demo App
 
